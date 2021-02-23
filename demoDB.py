@@ -123,3 +123,5 @@ for x in mycursor:
 	print(x)
 
 mycursor.close()
+
+
