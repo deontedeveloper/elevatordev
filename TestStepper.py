@@ -26,3 +26,4 @@ print (  '        mSec/Step:  ' + str(totalTime/totalSteps * 1000) )
 print (  '        Frequency:  ' + str(totalSteps/totalTime) + '  (steps/second)')
 print (  '  Degrees rotated:  ' + str(360.0 * (float(totalSteps) / 4096.0)) + '  degrees' )
 print (  'Completion Status:  ' + status + '\n')
+
