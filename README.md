@@ -1,9 +1,9 @@
-Assigned to: Kyle Fox
+Assigned to:
 <p>This project developes the code for a model elevator of 2 cars runs on a raspberry pi 3 <br>
 <br>
 <h2>TO CLONE</h2>
 
--git clone https://github.com/sdev265/elevator.git<br>
+-git clone https://github.com/sdev265ev/elevator.git<br>
 <br>
 **HISTORY** <br>
 
