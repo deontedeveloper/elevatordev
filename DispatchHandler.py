@@ -97,8 +97,6 @@ def UpdateCarStopList():
 	return
 
 
-
-
 def stopList2Metrics(stopList):
 	print ('stopList2Metrics: ', stopList)
 	# Method used by the cars
