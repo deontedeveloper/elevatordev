@@ -1,5 +1,5 @@
 # Original Author: Lonnie Clifton
-# Contributors: Ariel Merriman
+# Contributors: 
 # Date: April 5, 2020
 # Revision #: 1.1
 # Explanation of Recent Changes: Updated document to follow new coding standards.
