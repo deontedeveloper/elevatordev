@@ -4,7 +4,8 @@
 # Revision #: 1.1
 # Explanation of Recent Changes: Modified document to follow new coding standards.
 
-# Description of Code: Initializes the car button and sends the input to CarButtonCallBack.py to move the car where it is supposed to go.
+# Description of Code: Initializes the car buttons and sends the input to CarButtonCallBack.py to 
+#   move the car where it is supposed to go.
 
 #!/usr/bin/python3
 
@@ -18,6 +19,7 @@ def CarButtonInitialize():
 	print ('CarButtonInitialize: initialize ....')
 
 	# Use physical pin numbers/GPIO references instead of BCM.
+	# GPIO.setmode(GPIO.BCM)
 	GPIO.setmode(GPIO.BOARD)
 	GPIO.setwarnings(False)
 
