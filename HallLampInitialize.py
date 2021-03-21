@@ -15,7 +15,7 @@ import time
 
 def HallLampInitialize():
 
-	print ('HallLampInitialize: initialize Starting.....',end="")
+	print ('HallLampInitialize: initialize Starting.....',end='')
 	# Use physical pin numbers/GPIO references instead of BCM.
 	#GPIO.setmode(GPIO.BOARD)
 	
