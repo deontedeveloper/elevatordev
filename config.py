@@ -39,7 +39,7 @@ CarButtonPins = [0,8,10,36,11,12]
 LSBottomPin   = 7
 LSTopPin      = 8
 
-CarStepWaitTime = .002
+CarStepWaitTime = .0012
 
 # Master Controller.
 
