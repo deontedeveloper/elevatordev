@@ -69,14 +69,14 @@ def CarManager():
 	# cdm.CarDoorManager('close')
 	print ('CarManager: Moving to bottom floor')
 	# Move car to bottom floor.
-	Car.moveCar(-100000)
+	Car.moveCar(-1000000)
 	time.sleep(.2)
 	
 	totalSteps = 7400
 	#print ('CarManager: Moving to top floor to count steps')
 	# Move car to top floor.
 	# Will stop when car reaches limit switch.
-	totalSteps = Car.moveCar(555555)
+	totalSteps = Car.moveCar(1000000)
 	print ("CarManager: Total steps: ", totalSteps)
 	#time.sleep(1)
 		
@@ -115,14 +115,16 @@ def CarManager():
 		#		CarButtonCallBack(5)
 
 		if config.CarFloorStopList[floor] == 1:
+			# This floor has an entry
 			# The floor being checked may not be where the car is actually currently located.
-			# It may be above or below the checked floor.
+			# It may be above or below the checked floor. We have to move it.
 			while currentFloor != floor:
 				# Keep moving car until a stop floor is reached.
 				if (floor - currentFloor) > 0:
-					# Move car up toward logical floor.
+					# Move car up one logical floor.
 					moveDirection = 1
 				else:
+					# Move car down one logical floor.
 					moveDirection = -1
 
 				#cdm.CarDoorManager('close')
